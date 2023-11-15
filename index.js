@@ -1,9 +1,7 @@
 function selectNumbers() {
   var randomNumber1 = Math.floor(Math.random() * 6 + 1);
-  console.log(randomNumber1);
 
   var randomNumber2 = Math.floor(Math.random() * 6 + 1);
-  console.log(randomNumber2);
 
   document
     .querySelector("body > div > div:nth-child(2) > img")
